@@ -61,10 +61,10 @@ while True:
         chrome.get("https://www.google.co.jp")
     elif(recognized_text == "天気"):
         print(whether())
-    elif(recognized_text == "ヴァロ ラント"):
-        #subprocess.Popen(r'C:\Riot Games\Riot Client\RiotClientServices.exe')
-        subprocess.Popen(r'C:\Riot Games\VALORANT\live\VALORANT.exe')
-
+        """
+    elif(recognized_text == "アプリの名前"):
+        subprocess.Popen(r'C:～')
+        """
     elif(recognized_text == "ストップ"):
         break
 
